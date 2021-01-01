@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-      <script type="text/javascript">
-          // set the pyodide files URL (packages.json, pyodide.asm.data etc)
-          window.languagePluginUrl = 'https://cdn.jsdelivr.net/pyodide/v0.15.0/full/';
-      </script>
-      <script src="https://cdn.jsdelivr.net/pyodide/v0.15.0/full/pyodide.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Video Send</title>
+    <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+<!--sound cdn caused page to not load, check this -->
+    <!---<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/addons/p5.sound.min.js"></script>-->
+    <script type="text/javascript" src="sketch.js"></script>
   </head>
-  <body>
-    Pyodide test page <br>
-    Open your browser console to see pyodide output
-    <script type="text/javascript">
-          languagePluginLoader.then(function () {
-              console.log(pyodide.runPython(`
-                  import sys
-                  sys.version
-              `));
-              console.log(pyodide.runPython('print(1 + 2)'));
-          });
-    </script>
-  </body>
+
+    <body>
+      <main>
+
+      </main>
+    </body>
+
 </html>
