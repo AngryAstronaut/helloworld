@@ -36,10 +36,10 @@ function draw() {
 }
 
   ////translate(width/2,height/2);
-  //let a = atan2(mouseY-height/2, mouseX-width/2);
-  //rotate(a);
-  //fill(0);
-  //rect(-375,-5,750,10);
+  let a = atan2(mouseY-height/2, mouseX-width/2);
+  rotate(a);
+  fill(0);
+  rect(-375,-5,750,10);
   
   //fill(255);
   fill(0);
